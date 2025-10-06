@@ -3,7 +3,7 @@
 
 ## 🔗 App Link
 
-📱 **[Download bit-chats App]()**
+📱 **[Download bit-chats App](https://drive.google.com/file/d/1P4YktEgxj8Eyu4JC9rkupK9GWfZn-td-/view?usp=drive_link)**
 
 > **A decentralized, secure, and anonymous chat application built with modern Android technologies.**
 
