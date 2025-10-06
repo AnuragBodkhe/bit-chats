@@ -1,44 +1,43 @@
-# bit-chats for Android
+# bit-chats
 
 A secure, decentralized, and anonymous chat application for Android.
 
-## 📖 Overview
+## 🚀 Overview
 
-bit-chats is an Android application designed for users who prioritize privacy and security in their communications. It leverages decentralized technologies to offer a censorship-resistant and anonymous messaging experience. The project is built entirely with modern Android development practices, using Kotlin and Jetpack Compose.
+**bit-chats** is an Android messaging app designed to provide privacy-first communication. It uses decentralized protocols and strong cryptographic techniques to ensure your data and identity remain secure. The app is built entirely with modern Android tooling, including Kotlin and Jetpack Compose.
 
 ## ✨ Features
 
-*   **Decentralized Messaging:** Built on the **Nostr** protocol, ensuring your conversations are not controlled by a central server.
-*   **Anonymity with Tor:** Integrates **Arti**, a next-generation Rust implementation of Tor, to protect your identity and network traffic.
-*   **End-to-End Encryption:** Utilizes robust, industry-standard cryptographic libraries (`Bouncy Castle`, `Google Tink`) to secure your messages.
-*   **Secure Identity Management:** On-device, secure handling of user identities using `androidx.security:security-crypto`.
-*   **Modern Android UI:** A clean, dynamic, and intuitive user interface built entirely with Jetpack Compose.
-*   **Peer-to-Peer Capabilities:** Includes Bluetooth Low Energy (BLE) support for potential offline communication scenarios.
+- **Decentralized Messaging** — Built on the Nostr protocol to avoid reliance on central servers.  
+- **Anonymity via Tor** — Integrated with Arti (Rust Tor implementation) to anonymize network traffic.  
+- **End-to-End Encryption** — Leveraging Bouncy Castle and Google Tink for secure messaging.  
+- **Secure Identity Management** — On-device key management with `androidx.security:security-crypto`.  
+- **Modern UI** — Built using Jetpack Compose, following best practices in Android UI design.  
+- **Peer-to-Peer (P2P) Support** — Includes BLE (Bluetooth Low Energy) for offline messaging scenarios.
 
-## 🛠️ Tech Stack & Architecture
+## 🛠 Tech Stack & Architecture
 
-*   **UI:** 100% [Jetpack Compose](https://developer.android.com/jetpack/compose) for declarative UI development.
-*   **Architecture:** Follows the MVVM (Model-View-ViewModel) pattern, utilizing Android Architecture Components like [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel), [LiveData](https://developer.android.com/topic/libraries/architecture/livedata), and [Navigation Compose](https://developer.android.com/jetpack/compose/navigation).
-*   **Asynchronicity:** [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html) and [Flow](https://kotlinlang.org/docs/flow.html) for managing background threads and asynchronous operations.
-*   **Networking:** [OkHttp](https://square.github.io/okhttp/) for robust HTTP requests, with custom integrations for the Nostr protocol and Tor via Arti.
-*   **Security:**
-    *   [Bouncy Castle](https://www.bouncycastle.org/): For advanced cryptographic operations.
-    *   [Google Tink](https://github.com/google/tink): For secure and misuse-resistant crypto APIs.
-    *   [AndroidX Security](https://developer.android.com/topic/security/data): For securely storing data at rest.
-*   **Dependency Injection:** [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) (Recommended to add) for managing dependencies.
+| Area | Technology / Pattern |
+|---|---|
+| UI | Jetpack Compose |
+| Architecture | MVVM (Model-View-ViewModel) with Android Architecture Components |
+| Asynchronous | Kotlin Coroutines & Flow |
+| Networking | OkHttp + Nostr Protocol + Tor (Arti) |
+| Crypto / Security | Bouncy Castle, Google Tink, AndroidX Security |
+| Dependency Injection | (Recommended) Hilt |
 
-## 🚀 Getting Started
+## 🧰 Getting Started
 
-To build and run the project, follow these steps:
+These instructions will help you run a local copy of the project for development and testing.
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/AnuragBodkhe/bit-chats.git
-    ```
-2.  **Open in Android Studio:**
-    Open the cloned directory in the latest stable version of Android Studio.
-3.  **Sync Gradle:**
-    Let Android Studio sync the project's Gradle dependencies.
-4.  **Run the app:**
-    Build and run the application on an Android emulator or a physical device.
+### Prerequisites
 
+- Android Studio (latest stable version)  
+- Android SDK and tools  
+- A device or emulator running Android
+
+### Steps
+
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/AnuragBodkhe/bit-chats.git
