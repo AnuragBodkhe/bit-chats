@@ -1,5 +1,10 @@
 # 🛰️ bit-chats  
 
+
+## 🔗 App Link
+
+📱 **[Download bit-chats App]()**
+
 > **A decentralized, secure, and anonymous chat application built with modern Android technologies.**
 
 ![Android](https://img.shields.io/badge/Platform-Android-green?style=flat-square)
