@@ -1,4 +1,4 @@
-# 🛰️ bit-chats
+# 🛰️ bit-chats     APP LINK: 
 
 > **A decentralized, secure, and anonymous chat application built with modern Android technologies.**
 
