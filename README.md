@@ -30,6 +30,11 @@ Every message is end-to-end encrypted to ensure maximum security and confidentia
 - 💬 **Beautiful UI** – powered by Jetpack Compose and Material 3 design system.  
 
 ---
+## 🎥 App Demo
+
+🎬 [Watch App Demo on Google Drive](https://drive.google.com/file/d/1MjG-U8AzG8mSgbPEafEDkO89Ieoc8y-l/view?usp=drive_link)
+
+---
 
 ## ✨ Key Features
 
